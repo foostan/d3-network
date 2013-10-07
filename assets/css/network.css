@@ -1,0 +1,29 @@
+.link {
+  stroke: #555555;
+  stroke-width: 1px;
+}
+
+.node {
+  cursor: move;
+  fill: #fff;
+  stroke: #555555;
+  stroke-width: 1px;
+}
+
+.link.active {
+    stroke: #00aacc;
+    stroke-width: 2px;
+    stroke-opacity: 1;
+}
+
+.node.selected {
+    stroke: #00aacc;
+    fill: #00aacc;
+    stroke-width: 2px;
+}
+
+.node.active {
+    stroke: #00aacc;
+    fill: #fff;
+    stroke-width: 2px;
+}
